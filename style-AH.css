@@ -1,0 +1,46 @@
+/*for all sections*/
+body {
+  margin: 0;
+  padding-top:0;
+  font-family:"Poppins","Segoe UI",sans-serif;
+  color: #333333;
+  background-color: #800020;
+}
+
+/*logo of Symphony Steps*/
+.logo {
+  display:flex;
+  align-items:center;
+}
+
+/*Symphony Steps word*/
+.logo h1 {
+  font-size:2em;
+  color: #FFD700;
+  font-weight:bold;
+  margin:0;
+}
+
+/*navigation links*/
+nav a {
+  margin:0 15px;
+  text-decoration:none;
+  color:#FAF0E6;
+  font-weight:500;
+  font-size:1.7em;
+}
+
+/*navigation when the mouse touches it*/
+nav a:hover {
+  color: #FFD700;
+}
+
+
+
+main {
+
+}
+
+footer {
+  color:#FAF0E6;
+}
