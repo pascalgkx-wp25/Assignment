@@ -1,61 +1,35 @@
 body {
-  margin: 0;
-  padding-top:0;
-  font-family:"Poppins","Segoe UI",sans-serif;
-  color: #333333;
-  background-color: #efe9dd;
+  background-image: url('resources/images/symphonic band.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; /* Good practice to prevent tiling if image is small */
+  background-attachment: fixed; /* Optional: Makes the background static when scrolling */
+  min-height: 100vh; /* This is crucial to ensure the body takes full height */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
 }
 
 header {
-  background-color:#781319;
-  border-bottom: 2px solid #ffd700;
-  overflow: auto;
-  padding: 13px 0;
+    margin-bottom: 40px;
 }
 
-/*logo of Symphony Steps*/
-.logo img{
-  float:left;
-  width: 50px;
-  height:50px;
-  margin-left:20px;
-  margin-top:10px;
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#fcf386;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px  #333333;
 }
 
-/*Symphony Steps word*/
-.logo h1 {
-  float:left;
-  font-size:1.7em;
-  color: #FFD700;
-  font-weight:bold;
-  margin: 15px 0 0 10px;
+h2, p {
+    text-align: center;
+}
+main {
+    padding-top: 20px; /*ensures space between header and main*/
+    margin-left: 491px; /* This creates space for the nav column */
+    display: block;
+    background-color:#fcf386;
+    overflow: auto;
 }
 
-nav {
-  float: right;
-  margin-top: 25px;
-  margin-right: 30px;
-}
-
-/*navigation links*/
-nav a {
-  text-decoration:none;
-  color:#FAF0E6;
-  font-weight:500;
-  font-size:1.4em;
-  margin: 0 15px;
-  padding-bottom:10px;
-}
-
-nav a:link {
-  color:#ffd700;
-}
-
-/*footer {
-  text-align:center;
-  font-style:italic;
-  font-size:.60em;
-  color:#FAF0E6;
-  background-color:#361a0e;
-  border-top:2px solid #FFD700;
-}*/
