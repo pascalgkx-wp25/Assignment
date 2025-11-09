@@ -1,14 +1,4 @@
 /*for all sections*/
-body {
-  overflow:auto;
-  margin: 0;
-  padding: 0;
-  clear:both;
-  font-family:"Poppins","Segoe UI",sans-serif;
-  color: #333333;
-  background-color: #efe9dd;
-}
-
 header {
   background-color:#781319;
   border-bottom: 2px solid #ffd700;
@@ -62,4 +52,5 @@ nav a:visited {
 /*navigation when the mouse touches it*/
 nav a:hover {
   color: #FFD700;
+
 }
