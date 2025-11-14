@@ -2,25 +2,131 @@ body {
     margin: 0;
     padding: 0;
 }
-.content {
-  background-color:#fcf386;
+#hero {
+  background-color:#EEDFA6;
   overflow:auto;
   clear:both;
-  padding-top:20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1)
 }
-.content h2 {
+
+#hero h1 {
   color:#361a0e;
   margin-left:60px;
-  margin-top:50px;
-  font-size: 2em;
+  margin-top:80px;
+  padding-top:80px;
+  font-size: 2.9em;
+  float:left;
+  width:35%;
   font-style:italic;
-  display: inline-block;
 }
 
-.content img {
+#hero img {
   float:right;
   margin-right:60px;
-  margin-top:10px;
-  border:3px solid #FFD700;
+  margin-top:0px;
+  border:3px solid #361a0e;
+  width: 800px;
+  height:450px;
+  box-shadow: 0 0 15px 5px rgba(0,0,0,0.4);
 }
 
+#about {
+  padding: 20px 40px;
+  overflow: auto;
+  clear: both;
+  background-color:#FAF8E9;
+  max-width:1300px;
+  margin: 0 auto;
+  box-shadow: 0 3px 8px 0 rgba (0,0,0,0.1)
+}
+
+#about h2 {
+  color:#8b0000;
+  text-align: center;
+  margin-bottom:40px;
+  text-decoration:underline;
+  font-weight:bold;
+  font-size:1.8em;
+  padding-top:10px;
+}
+
+#about h3 {
+  color:#361a0e;
+  font-size:1.3em;
+  text-align:left;
+  margin-top:0;
+  font-weight:bold;
+}
+
+#about p {
+  text-align:left;
+  padding-top:5px;
+  line-height:1.7;
+  font-size:1.2em;
+}
+
+#about p a{
+  color:#8b0000;
+  text-decoration:none;
+  font-weight:bold;
+  font-style:italic;
+  font-size:1.0em;
+}
+
+#about p a:hover {
+  color:#ffd700;
+  background-color: #8b0000;
+  padding: 2px 5px;
+}
+
+#about img {
+  float:left;
+  margin-right:30px;
+  margin-bottom: 20px;
+  margin-top:10px;
+  border: 1px solid #361a0e;
+}
+
+.lessons {
+  background-color:#8b0000;
+  color:#ffffff;
+  padding: 40px 60px;
+  clear:both;
+  overflow: auto;
+  margin-top:30px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.lessons h2, .lessons h3 {
+  color:#ffd700;
+  text-align:center;
+  border-bottom:none;
+  margin-bottom:20px;
+}
+
+.lessons table {
+  width:90%;
+  margin: 20px auto;
+  border: 1px solid #ffd700;
+  font-size: 1.1em;
+}
+
+.lessons td {
+  color: #ffffff;
+  background-color:#a33838;
+  padding:10px;
+  text-align:center;
+  border:1px solid #ffd700;
+}
+
+.lessons a{
+  color:#fcf386;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.lessons a:hover {
+  color: #8b0000;
+  background-color:#fcf386;
+  padding:2px 5px;
+}
