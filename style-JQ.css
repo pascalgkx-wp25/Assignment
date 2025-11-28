@@ -2,6 +2,8 @@
 body {
   background-color: #FCF386;  /* Change page background here */
   font-family: "Times New Roman", Times, serif; /* optional font */
+  margin: 0;
+  padding: 0;
 }
 
 /* Content Wrapper */

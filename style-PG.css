@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/*MAIN PART OF WEBSITE*/
 #hero {
   background-color:#EEDFA6;
   overflow:auto;
@@ -30,27 +32,26 @@ body {
   box-shadow: 0 0 15px 5px rgba(0,0,0,0.4);
 }
 
-#about {
-  padding: 20px 40px;
-  overflow: auto;
-  clear: both;
+/*ABOUT TEASER PART*/
+.about-teaser {
+  padding: 20px;
+  overflow:auto;
   background-color:#FAF8E9;
   max-width:1300px;
-  margin: 0 auto;
+  margin: auto;
   box-shadow: 0 3px 8px 0 rgba (0,0,0,0.1)
 }
 
-#about h2 {
+.about-teaser h2 {
   color:#8b0000;
   text-align: center;
-  margin-bottom:40px;
   text-decoration:underline;
   font-weight:bold;
   font-size:1.8em;
-  padding-top:10px;
+
 }
 
-#about h3 {
+.about-teaser h3 {
   color:#361a0e;
   font-size:1.3em;
   text-align:left;
@@ -58,14 +59,14 @@ body {
   font-weight:bold;
 }
 
-#about p {
+.about-teaser p {
   text-align:left;
   padding-top:5px;
   line-height:1.7;
   font-size:1.2em;
 }
 
-#about p a{
+.about-teaser p a{
   color:#8b0000;
   text-decoration:none;
   font-weight:bold;
@@ -73,13 +74,13 @@ body {
   font-size:1.0em;
 }
 
-#about p a:hover {
+.about-teaser p a:hover {
   color:#ffd700;
   background-color: #8b0000;
   padding: 2px 5px;
 }
 
-#about img {
+.about-teaser img {
   float:left;
   margin-right:30px;
   margin-bottom: 20px;
@@ -87,7 +88,8 @@ body {
   border: 1px solid #361a0e;
 }
 
-.lessons {
+/*LESSONS & PRICING TEASER*/
+.lessons-teaser {
   background-color:#8b0000;
   color:#ffffff;
   padding: 40px 60px;
@@ -97,36 +99,98 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.lessons h2, .lessons h3 {
+.lessons-teaser table {
+  width:80%;
+  border: 1px solid #ffd700;
+  font-size: 1.1em;
+  margin: auto;
+}
+
+.lessons-teaser th {
+  background-color: #860000;
+  color:#ffd700;
+  font-weight:bold;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 1px solid #ffd700;
+}
+
+.lessons-teaser td {
+  color:#ffffff;
+  background-color:#a33838;
+  padding:10px;
+  text-align:center;
+  border: 1px solid #ffd700;
+}
+
+.lessons-teaser h2, h3 {
   color:#ffd700;
   text-align:center;
   border-bottom:none;
   margin-bottom:20px;
+  padding-right:50px;
 }
 
-.lessons table {
-  width:90%;
-  margin: 20px auto;
-  border: 1px solid #ffd700;
-  font-size: 1.1em;
+.lessons-teaser h2 {
+  text-decoration:underline;
 }
 
-.lessons td {
-  color: #ffffff;
-  background-color:#a33838;
-  padding:10px;
+.lessons-teaser p {
   text-align:center;
-  border:1px solid #ffd700;
+  padding-top:20px;
 }
 
-.lessons a{
-  color:#fcf386;
-  text-decoration:none;
-  font-weight:bold;
+.lessons-teaser p a{
+font-style: italic;
+  font-size: 17px;
+  color: #fcf386;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.lessons a:hover {
+
+.lessons-teaser a:hover {
   color: #8b0000;
   background-color:#fcf386;
   padding:2px 5px;
+}
+
+/*CONTACT TEASER PART*/
+.contact-teaser {
+  padding:40px 60px;
+  overflow:auto;
+  clear:both;
+  background-color:#EEDFA6;
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  text-align:center;
+}
+
+.contact-teaser h2 {
+  color:#8b0000;
+  font-size:1.8em;
+  margin-bottom:15px;
+}
+
+.contact-teaser p {
+  color:#361a0e;
+  font-size:1.1em;
+  line-height:1.9;
+}
+
+.contact-teaser p a{
+  font-size:1.3em;
+  color:#ffffff;
+  text-decoration:none;
+  font-weight:bold;
+  background-color:#860000;
+  border:2px solid #361a0e;
+  padding:10px;
+  text-transform:uppercase;
+}
+
+
+.contact-teaser p a:hover {
+  background-color:#ffd700;
+  color:#8b0000;
 }
