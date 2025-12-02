@@ -1,29 +1,75 @@
 body {
   background-color: #FCF386;  
   font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  color: #333;
 }
-
 main.content {
   max-width: 900px;
-  margin: 30px auto;
+  margin: 40px auto;
   padding: 0 20px;
 }
-
 main.content h2 {
-  font-size: 2em; 
-  margin-top: 20px;
+  font-size: 2.2em;
+  margin: 40px 0 20px;
+  text-align: center;
+  background-color: #8B0000;
+  color: white;
+  font-style: italic;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
 }
-
 main.content p {
-  font-size: 1.2em;  
-  line-height: 1.6;
+  font-size: 1.35em;   
+  font-weight: bold;    
+  line-height: 1.7;     
+  margin-bottom: 20px;
+  color: #333;
 }
-
+.about-image {
+  text-align: center;
+  margin: 25px 0;
+}
 .about-image img {
-  width: 100%;
+  width: 90%; 
   max-width: 900px;
   height: auto;
-  margin-top: 15px;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4); 
-  border-radius: 5px; 
+  border-radius: 8px;
+  box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.35);
+}
+hr {
+  border: none;
+  height: 2px;
+  background-color: #8B0000;
+  width: 70%;
+  margin: 40px auto;
+  border-radius: 2px;
+}
+.why {
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.why-table {
+  width: 100%;
+  border-collapse: collapse; /* merges cell borders */
+  font-size: 1.2em;
+}
+
+.why-table th, .why-table td {
+  border: 1px solid #8B0000; /* simple border */
+  padding: 12px;
+  text-align: left;
+}
+
+.why-table th {
+  background-color: #8B0000;
+  color: white;
+}
+
+.why-table tr:nth-child(even) {
+  background-color: #f7eeb5; /* light background for alternating rows */
 }
