@@ -161,7 +161,7 @@ font-style: italic;
   overflow:auto;
   clear:both;
   background-color:#EEDFA6;
-
+  
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
   text-align:center;
 }
@@ -194,3 +194,70 @@ font-style: italic;
   background-color:#ffd700;
   color:#8b0000;
 }
+
+.lesson-intro {
+  width:90%;
+  line-height:250%;
+  margin: 0 auto;
+  padding:20px;
+  background-color:#FAF8E9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.lesson-intro img {
+  float:left;
+  margin-right:20px;
+  border:3px solid #fcf386;
+}
+
+.lesson-intro h3 {
+  color:#8b0000;
+  font-size:1.4em;
+  margin-top:5px;
+  font-weight:bold;
+}
+
+.lesson-intro h2 {
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:25px;
+  color:#361a0e;
+}
+
+.lesson-content {
+  width: 90%;
+  clear:both;
+  margin: 0 auto;
+  padding:20px;
+  padding-top:0;
+  background-color:#eedfa6;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.lesson-content dt {
+  color:#361a0e;
+  margin-top:35px;
+  border-bottom:2px solid #860000;
+  padding-bottom:5px;
+  font-size:1.5em;
+  font-weight:bold;
+}
+
+.lesson-content dd {
+  margin-left:25px;
+  border-left:3px solid #361a0e;
+  padding-left:15px;
+  padding-bottom:20px;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.lesson-intro .audio-box {
+  text-align:center;
+  background-color:#fcf386;
+  padding:20px;
+  margin:30px auto;
+  border:1px solid #ffd700;
+}
+
