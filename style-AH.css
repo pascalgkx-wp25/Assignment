@@ -1,46 +1,37 @@
 body {
-  background-image: url('resources/images/symphonic band.jpg');
-  background-size: cover;
-  background-repeat: no-repeat; /* Good practice to prevent tiling if image is small */
-  background-attachment: fixed; /* Optional: Makes the background static when scrolling */
-  min-height: 100vh; /* This is crucial to ensure the body takes full height */
-  margin: 0; /* Remove default body margin */
-  padding: 0; /* Remove default body padding */
-}
+    background-color: #EEDFA6;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    margin: 0; 
+    padding: 0; 
+    }
 
 header {
-    margin-bottom: 40px;
+    margin-bottom: 40px; 
 }
 
-#wrapper {
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-    background-color:#EEDFA6;
-    min-width: 900px;
-    max-width: 1280px;
-    box-shadow: 3px 3px 3px  #333333;
-    padding-top: 20px;
-    display: flex;
+.contact-form, .contact-info {
+    margin: auto;
+    padding: 30px;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color:antiquewhite;
 }
 
-#wrapper img {
-    width: 40%;
-    overflow: hidden;
-    background-image: center;
-}
-
-#wrapper .formcontent {
-    width: 60%;
-}
-
-main {
-    margin-left: 50%;
-    padding: 0;
+.contact-form img, .contact-info img {
+    float: right;
     display: block;
+    padding-right: 80px;
 }
 
-main h2, main p {
-    text-align: left;
+.contact-info {
+    margin: auto;
+    padding: 30px;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #FAF8E9;
 }
 
