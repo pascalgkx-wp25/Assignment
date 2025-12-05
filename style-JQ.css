@@ -1,45 +1,118 @@
 body {
   background-color: #FCF386;  
-  font-family: "Times New Roman", Times, serif;
-  margin: 0;
-  padding: 0;
-
   color: #333;
 }
-main.content {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
+
+.content {
+  max-width: 1400px;
+  margin-left: 35px;
+  padding-left: 30px;
+  padding-top: 2px;
+  padding-right:10px;
+  background-color: #eedfa6;
+  height: 450px;
 }
-main.content h2 {
+.content h2 {
   font-size: 2.2em;
-  margin: 40px 0 20px;
   text-align: center;
   background-color: #8B0000;
   color: white;
   font-style: italic;
-  padding: 12px;
+  line-height:1.8;
   border-radius: 6px;
-  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
 }
-main.content p {
-  font-size: 1.35em;   
-  font-weight: bold;    
-  line-height: 1.7;     
+
+.content p {
+  padding-top:20px;
+  font-size: 1.35em;      
   margin-bottom: 20px;
+  font-weight:650;
+  line-height: 1.7;   
   color: #333;
 }
-.about-image {
+
+.content img {
+  float:left;
+  margin-right:30px;
+  margin-bottom: 20px;
+  margin-top:5px;
+  border: 1px solid #361a0e;
+  border-radius:8px;
+}
+
+.video-intro-wrapper {
+  max-width: 1400px;
+  margin-left: 35px;
+  padding-left: 30px;
+  padding-top: 2px;
+  padding-right:10px;
+  background-color: #eedfa6;
+  height: 450px;
+  margin-top:30px;
+}
+
+.video-intro-wrapper h2 {
+  font-size: 2.2em;
   text-align: center;
-  margin: 25px 0;
+  background-color: #8B0000;
+  color: white;
+  font-style: italic;
+  line-height:1.8;
+  border-radius: 6px;
 }
-.about-image img {
-  width: 90%; 
-  max-width: 900px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.35);
+
+.video-intro-text {
+  font-size: 1.35em;      
+  font-weight:650;
+  line-height: 1.7;   
+  color: #333;
 }
+
+.video-song-title {
+  font-style:italic;
+  font-size:1.5em;
+  text-align:center;
+  color:#8B0000;
+  margin-bottom:10px;
+  font-weight:bold;
+}
+
+.video-box {
+  float:right;
+  margin-left:20px;
+  margin-bottom:10px;
+  padding-right:20px;
+}
+
+.goals-section {
+  max-width: 1400px;
+  margin-left: 35px;
+  padding-left: 30px;
+  padding-top: 2px;
+  padding-right:10px;
+  background-color: #eedfa6;
+  height: 370px;
+}
+
+.goals-section h2 {
+  margin-left:350px;
+  max-width:700px;
+  font-size: 2.2em;
+  text-align: center;
+  background-color: #8B0000;
+  color: white;
+  font-style: italic;
+  line-height:1.8;
+  border-radius: 6px;
+}
+
+.goals-section p {
+  font-size: 1.35em;      
+  font-weight:650;
+  line-height:1.5;
+  color: #333;
+}
+
 hr {
   border: none;
   height: 2px;
@@ -48,9 +121,28 @@ hr {
   margin: 40px auto;
   border-radius: 2px;
 }
-.why {
-  max-width: 900px;
-  margin: 40px auto;
+
+.why-table-section {
+  max-width: 1400px;
+  margin-left: 35px;
+  padding-left: 30px;
+  padding-top: 2px;
+  padding-right:10px;
+  background-color: #eedfa6;
+  height: 370px;
+  margin-bottom:20px;
+}
+
+.why-table-section h2 {
+  margin-left:350px;
+  max-width:700px;
+  font-size: 2.2em;
+  text-align: center;
+  background-color: #8B0000;
+  color: white;
+  font-style: italic;
+  line-height:1.8;
+  border-radius: 6px;
 }
 
 .why-table {
@@ -78,73 +170,89 @@ hr {
   background-color: #ffffff;
 }
 
+/*PRICING CONTENTS*/
 .pricing-intro {
     margin-bottom: 25px;
     padding: 10px 0;
+    max-width: 1400px;
+    background-color: #eedfa6;
+    height: 930px;
+    margin-left:60px;
+    margin-top:10px;
 }
 
 .pricing-intro h1 {
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 10px;
-    color: #000000;
-    font-style: italic;
-    font-weight: bold;
+  margin-left:350px;
+  max-width:700px;
+  font-size: 2.5em;
+  text-align: center;
+  background-color: #8B0000;
+  color: white;
+  line-height:1.8;
+  border-radius: 6px;
 }
 
 .pricing-intro p {
-    font-size: 1.1rem;
-    color: #000000;
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;    
-    line-height: 1.6em;
-    font-weight: bolder;
-    font-style: italic;
+  font-size: 1.2em;
+  color: #000000;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;    
+  line-height: 1.8em;
+  font-weight:400;
 }
 
 .pricing-table {
-    width: 90%;              
-    max-width: 1200px;       
-    margin: 30px auto 0 auto; 
-    background-color: #1f1f1f;  
-    border-radius: 12px;
-    border-collapse: collapse;
-    overflow: hidden;
-    border: 2px solid #ffffff; 
+  width: 100%;              
+  max-width: 1300px;       
+  margin: 30px auto 0 auto; 
+  background-color:#000000;
+  border-radius: 12px;
+  border-collapse: collapse;
+  overflow:hidden;
+  border: 2px solid #361a0e; 
 }
 
 .pricing-table th,.pricing-table td {
     padding: 15px;
-    border: 1px solid #ffffff;
-}
-
-.pricing-table tr:first-child {
-    background-color: #292929; 
+    border: 1px solid #361a0e;
 }
 
 .pricing-table th {
     font-size: 1.1rem;
-    text-align: left;
+    text-align:center;
     font-weight: 600;
-    color: #ffffff;
+    color: #faf8e9;
+    background-color:#C6373C;
 }
 
 .pricing-table td {
-    color: #e3e3e3;
+    color: #361a0e;
     vertical-align: top;
     line-height: 1.5em;
 }
 
 .pricing-table tr:nth-child(odd) {
-    background-color: #202020;
+    background-color: #faf8e9;
 }
 
 .pricing-table tr:nth-child(even) {
-    background-color: #2a2a2a;
+    background-color: #eedfa6;
 }
 
-.pricing-table tr:hover {
-    background-color: #333333;
-    transition: 0.2s;
+.contact-link a{
+  font-size:1.3em;
+  color:#ffffff;
+  text-decoration:none;
+  font-weight:bold;
+  background-color:#860000;
+  border:2px solid #361a0e;
+  padding:10px;
+  text-transform:uppercase;
+  margin-top:20px;
+}
+
+.contact-link a:hover {
+  background-color:#ffd700;
+  color:#8b0000;
 }
