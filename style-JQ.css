@@ -1,3 +1,7 @@
+/* Name: Kwa Jin Quan
+   Student ID : 25WPF07125
+   HTML page covered: about.html , pricing.html*/
+
 body {
   background-color: #FCF386;  
   color: #333;
@@ -5,7 +9,7 @@ body {
 
 .content {
   max-width: 1400px;
-  margin-left: 35px;
+  margin:0 auto;
   padding-left: 30px;
   padding-top: 2px;
   padding-right:10px;
@@ -42,7 +46,7 @@ body {
 
 .video-intro-wrapper {
   max-width: 1400px;
-  margin-left: 35px;
+  margin:35px auto 0 auto;
   padding-left: 30px;
   padding-top: 2px;
   padding-right:10px;
@@ -86,7 +90,7 @@ body {
 
 .goals-section {
   max-width: 1400px;
-  margin-left: 35px;
+  margin:0 auto;
   padding-left: 30px;
   padding-top: 2px;
   padding-right:10px;
@@ -124,13 +128,12 @@ hr {
 
 .why-table-section {
   max-width: 1400px;
-  margin-left: 35px;
+  margin: 0 auto 20px auto;
   padding-left: 30px;
   padding-top: 2px;
   padding-right:10px;
   background-color: #eedfa6;
   height: 370px;
-  margin-bottom:20px;
 }
 
 .why-table-section h2 {
@@ -172,12 +175,10 @@ hr {
 
 /*PRICING CONTENTS*/
 .pricing-intro {
-    margin-bottom: 25px;
-    padding: 10px 0;
+    margin:10px auto 25px auto;
     max-width: 1400px;
     background-color: #eedfa6;
     height: 930px;
-    margin-left:60px;
     margin-top:10px;
 }
 
