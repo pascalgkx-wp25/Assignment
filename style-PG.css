@@ -2,7 +2,6 @@
    Student ID : 25WPF07525
    HTML page covered: index.html , lessons.html*/
 
-
 /*MAIN PART OF WEBSITE*/
 #hero {
   background-color:#EEDFA6;
@@ -136,7 +135,7 @@
 }
 
 .lessons-teaser p a{
-font-style: italic;
+  font-style: italic;
   font-size: 17px;
   color: #fcf386;
   text-decoration: none;
@@ -189,7 +188,9 @@ font-style: italic;
 
 /*LESSON PAGE*/
 .lesson-intro, .lesson-content {
-  margin: 20px auto;
+  margin:auto ;
+  margin-top:30px;
+  margin-bottom:20px;
   padding:30px;
   max-width:1400px;
   border-radius:10px;
@@ -234,6 +235,7 @@ font-style: italic;
 .lesson-intro p {
   font-size:1.1em;
   margin-bottom:15px;
+  line-height:1.8;
 }
 
 .lesson-content dt {
@@ -297,4 +299,23 @@ font-style: italic;
 .lesson-content img {
   float:right;
   padding-right:80px;
+}
+
+.pricing-link {
+  text-align:center;
+}
+
+.pricing-link p a {
+  font-size:1.5em;
+  color:#ffffff;
+  text-decoration:none;
+  font-weight:bold;
+  background-color:#860000;
+  border:2px solid #361a0e;
+  padding:10px;
+}
+
+.pricing-link p a:hover {
+  background-color:#ffd700;
+  color:#8b0000;
 }

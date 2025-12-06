@@ -9,14 +9,17 @@ body {
 
 .content {
   max-width: 1400px;
-  margin:0 auto;
+  margin:30px auto 0 auto;
   padding-left: 30px;
   padding-top: 2px;
   padding-right:10px;
   background-color: #eedfa6;
-  height: 450px;
+  height: 400px;
+  margin-top:30px;
 }
 .content h2 {
+  margin:auto;
+  max-width:700px;
   font-size: 2.2em;
   text-align: center;
   background-color: #8B0000;
@@ -30,7 +33,6 @@ body {
   padding-top:20px;
   font-size: 1.35em;      
   margin-bottom: 20px;
-  font-weight:650;
   line-height: 1.7;   
   color: #333;
 }
@@ -39,36 +41,36 @@ body {
   float:left;
   margin-right:30px;
   margin-bottom: 20px;
-  margin-top:5px;
+  margin-top:20px;
   border: 1px solid #361a0e;
   border-radius:8px;
 }
 
 .video-intro-wrapper {
   max-width: 1400px;
-  margin:35px auto 0 auto;
+  margin:30px auto 0 auto;
   padding-left: 30px;
   padding-top: 2px;
   padding-right:10px;
   background-color: #eedfa6;
   height: 450px;
-  margin-top:30px;
 }
 
 .video-intro-wrapper h2 {
   font-size: 2.2em;
+  margin:auto;
   text-align: center;
   background-color: #8B0000;
   color: white;
   font-style: italic;
   line-height:1.8;
   border-radius: 6px;
+  max-width:700px;
 }
 
 .video-intro-text {
   font-size: 1.35em;      
-  font-weight:650;
-  line-height: 1.7;   
+  line-height: 1.7;
   color: #333;
 }
 
@@ -95,11 +97,11 @@ body {
   padding-top: 2px;
   padding-right:10px;
   background-color: #eedfa6;
-  height: 370px;
+  height: 280px;
 }
 
 .goals-section h2 {
-  margin-left:350px;
+  margin:auto;
   max-width:700px;
   font-size: 2.2em;
   text-align: center;
@@ -112,9 +114,8 @@ body {
 
 .goals-section p {
   font-size: 1.35em;      
-  font-weight:650;
   line-height:1.5;
-  color: #333;
+  color: #333;;
 }
 
 hr {
@@ -123,12 +124,11 @@ hr {
   background-color: #8B0000;
   width: 70%;
   margin: 40px auto;
-  border-radius: 2px;
 }
 
 .why-table-section {
   max-width: 1400px;
-  margin: 0 auto 20px auto;
+  margin:0 auto 20px auto;
   padding-left: 30px;
   padding-top: 2px;
   padding-right:10px;
@@ -137,7 +137,8 @@ hr {
 }
 
 .why-table-section h2 {
-  margin-left:350px;
+  margin:auto;
+  margin-bottom:30px;
   max-width:700px;
   font-size: 2.2em;
   text-align: center;
@@ -152,6 +153,7 @@ hr {
   width: 100%;
   border-collapse: collapse; 
   font-size: 1.2em;
+  margin:auto;
 }
 
 .why-table th, .why-table td {
@@ -178,12 +180,12 @@ hr {
     margin:10px auto 25px auto;
     max-width: 1400px;
     background-color: #eedfa6;
-    height: 930px;
-    margin-top:10px;
+    height: 1000px;
 }
 
 .pricing-intro h1 {
-  margin-left:350px;
+  margin:auto;
+  margin-bottom:30px;
   max-width:700px;
   font-size: 2.5em;
   text-align: center;
@@ -198,7 +200,7 @@ hr {
   color: #000000;
   text-align: center;
   max-width: 1200px;
-  margin: 0 auto;    
+  margin: auto;    
   line-height: 1.8em;
   font-weight:400;
 }
@@ -215,12 +217,12 @@ hr {
 }
 
 .pricing-table th,.pricing-table td {
-    padding: 15px;
+    padding: 20px;
     border: 1px solid #361a0e;
 }
 
 .pricing-table th {
-    font-size: 1.1rem;
+    font-size: 1.1em;
     text-align:center;
     font-weight: 600;
     color: #faf8e9;
@@ -229,8 +231,8 @@ hr {
 
 .pricing-table td {
     color: #361a0e;
-    vertical-align: top;
     line-height: 1.5em;
+    text-align:center;
 }
 
 .pricing-table tr:nth-child(odd) {
