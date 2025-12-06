@@ -9,27 +9,104 @@ header {
     margin-bottom: 40px; 
 }
 
-.contact-form, .contact-info {
+/*Contact Form Section*/
+.contact-form {
     margin: auto;
-    padding: 30px;
     max-width: 1200px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    background-color:antiquewhite;
+    background-color:#FAF8E9;
 }
 
-.contact-form img, .contact-info img {
+.contact-form img {
     float: right;
     display: block;
     padding-right: 80px;
 }
 
-.contact-info {
-    margin: auto;
+.contact-form h1 {
+    text-align: left;
+    margin: 20, 0, 30, 0;
+    font-size: 2em;
+    padding-bottom: 10px;
+    border-bottom: 3px solid;
+}
+
+.contact-form p {
+    font-size: 1.2em;
+}
+
+/*Application Form Section*/
+.form-title {
+    background-color:#C6373C;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;  
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.form-application {
     padding: 30px;
+    margin-left: 50px;
+}
+
+.form-application p {
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+.form-application label{
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    margin-right: 10px;
+    font-size: 0.9em;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 0.8em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 70%;
+    padding: 10px;
+    font-size: 0.8em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/*Contact Info Section*/
+.contact-info {
+    float: center;
+    margin: auto;
     max-width: 1200px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    background-color: #FAF8E9;
+    background-color:#FAF8E9;
 }
 
+.info-title {
+    
+    padding-bottom: 15px;  
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.contact-info img {
+    float: right;
+    display: block;
+    padding-right: 80px;
+}
