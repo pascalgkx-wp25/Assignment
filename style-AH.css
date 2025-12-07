@@ -13,7 +13,7 @@ header {
     margin-bottom: 40px; 
 }
 
-/*Contact Form Section*/
+/*Contact Form Section (applies to both application form and contact form)*/
 .contact-form {
     margin: auto;
     max-width: 1200px;
@@ -21,15 +21,8 @@ header {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     background-color:#FAF8E9;
 }
-
-.contact-form img {
-    float: right;
-    display: block;
-    padding-right: 80px;
-}
-
 .contact-form h1 {
-    text-align: left;
+    text-align: center;
     margin: 20, 0, 30, 0;
     font-size: 2em;
     padding-bottom: 10px;
@@ -48,6 +41,7 @@ header {
     padding-bottom: 15px;  
     padding-left: 30px;
     padding-right: 30px;
+    text-align: center;
 }
 
 .form-application {
@@ -67,6 +61,7 @@ header {
     margin-right: 10px;
     font-size: 0.9em;
 }
+
 input[type="text"], input[type="email"], input[type="tel"] {
     width: 70%;
     padding: 10px;
@@ -103,14 +98,62 @@ textarea {
     background-color:#FAF8E9;
 }
 
-.info-title {
-    
-    padding-bottom: 15px;  
-    padding-left: 30px;
-    padding-right: 30px;
+.contact-info h1, h2 {
+    text-align: center;
+    margin: 20, 0, 30, 0;
+    font-size: 2em;
+    padding-bottom: 10px;
 }
-.contact-info img {
-    float: right;
-    display: block;
-    padding-right: 80px;
+
+.contact-title-background {
+    background-image: url("resources/images/contact-band.jpg");
+    background-size: cover;
+    line-height: 250px;
+    width: 1200px;
+    height: 250px;
+}
+
+.contact-title-background h1 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+.contact-email {
+    width: 49%;
+    height: 187.9px;
+    float: left;
+    border: 3px solid #8b0000;
+}
+
+.contact-phone {
+    width: 605.4px;
+    height: 187.9px;
+    float: right; 
+    border-top: 3px solid #8b0000;
+    border-bottom: 3px solid #8b0000;
+    border-right: 3px solid #8b0000;
+}
+
+.contact-email p{
+    padding-left: 20px;
+    font-size: 1.2em;
+}
+
+.contact-phone p{
+    padding-left: 20px;
+    font-size: 1.2em;
+}
+
+.contact-location {
+    padding-bottom: 20px;
+}
+
+.contact-location h2 {
+    padding-top: 200px;
+}
+
+.contact-location p {
+    text-align: center;
+    font-size: 1.2em;
 }
