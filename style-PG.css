@@ -3,10 +3,11 @@
    HTML page covered: index.html , lessons.html*/
 
 /*MAIN PART OF WEBSITE*/
+
 #hero {
   background-color:#EEDFA6;
   overflow:auto;
-  clear:both;
+
 }
 
 #hero h1 {

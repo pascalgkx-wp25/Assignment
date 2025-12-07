@@ -10,12 +10,10 @@ body {
 .content {
   max-width: 1400px;
   margin:30px auto 0 auto;
-  padding-left: 30px;
-  padding-top: 2px;
-  padding-right:10px;
+  padding:30px 10px 30px 30px;
   background-color: #eedfa6;
-  height: 400px;
   margin-top:30px;
+  overflow:auto;
 }
 .content h2 {
   margin:auto;
@@ -44,16 +42,14 @@ body {
   margin-top:20px;
   border: 1px solid #361a0e;
   border-radius:8px;
+  max-width:40%;
 }
 
 .video-intro-wrapper {
   max-width: 1400px;
   margin:30px auto 0 auto;
-  padding-left: 30px;
-  padding-top: 2px;
-  padding-right:10px;
+  padding:30px 10px 30px 30px;
   background-color: #eedfa6;
-  height: 450px;
 }
 
 .video-intro-wrapper h2 {
@@ -88,16 +84,14 @@ body {
   margin-left:20px;
   margin-bottom:10px;
   padding-right:20px;
+  max-width:90%;
 }
 
 .goals-section {
   max-width: 1400px;
   margin:0 auto;
-  padding-left: 30px;
-  padding-top: 2px;
-  padding-right:10px;
+  padding:30px 10px 30px 30px;
   background-color: #eedfa6;
-  height: 280px;
 }
 
 .goals-section h2 {
@@ -129,11 +123,8 @@ hr {
 .why-table-section {
   max-width: 1400px;
   margin:0 auto 20px auto;
-  padding-left: 30px;
-  padding-top: 2px;
-  padding-right:10px;
+  padding:30px 10px 30px 30px;
   background-color: #eedfa6;
-  height: 370px;
 }
 
 .why-table-section h2 {
@@ -177,10 +168,10 @@ hr {
 
 /*PRICING CONTENTS*/
 .pricing-intro {
-    margin:10px auto 25px auto;
-    max-width: 1400px;
-    background-color: #eedfa6;
-    height: 1000px;
+  margin:10px auto 25px auto;
+  max-width: 1400px;
+  background-color: #eedfa6;
+  padding-bottom:30px;
 }
 
 .pricing-intro h1 {
@@ -206,7 +197,7 @@ hr {
 }
 
 .pricing-table {
-  width: 100%;              
+  width: 95%;              
   max-width: 1300px;       
   margin: 30px auto 0 auto; 
   background-color:#000000;
