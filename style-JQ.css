@@ -197,7 +197,7 @@ hr {
 }
 
 .pricing-table {
-  width: 95%;              
+  width: 90%;              
   max-width: 1300px;       
   margin: 30px auto 0 auto; 
   background-color:#000000;
@@ -224,6 +224,7 @@ hr {
     color: #361a0e;
     line-height: 1.5em;
     text-align:center;
+    width:60px;
 }
 
 .pricing-table tr:nth-child(odd) {
