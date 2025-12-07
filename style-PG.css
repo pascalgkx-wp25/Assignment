@@ -2,14 +2,14 @@
    Student ID : 25WPF07525
    HTML page covered: index.html , lessons.html*/
 
+/*Index.html CSS*?
 /*MAIN PART OF WEBSITE*/
-
 #hero {
   background-color:#EEDFA6;
   overflow:auto;
-
 }
 
+/*1st Section of Home Page*/
 #hero h1 {
   color:#361a0e;
   margin-left:60px;
@@ -30,7 +30,7 @@
   height:450px;
 }
 
-/*ABOUT TEASER PART*/
+/*ABOUT TEASER Section of Home Page*/
 .about-teaser {
   padding: 20px;
   overflow:auto;
@@ -84,7 +84,7 @@
   border: 1px solid #361a0e;
 }
 
-/*LESSONS & PRICING TEASER*/
+/*LESSONS & PRICING TEASER of Home Page*/
 .lessons-teaser {
   background-color:#8b0000;
   color:#ffffff;
@@ -149,7 +149,7 @@
   padding:2px 5px;
 }
 
-/*CONTACT TEASER PART*/
+/*CONTACT TEASER PART of home page*/
 .contact-teaser {
   padding:40px 60px;
   overflow:auto;
@@ -178,7 +178,6 @@
   background-color:#860000;
   border:2px solid #361a0e;
   padding:10px;
-  text-transform:uppercase;
 }
 
 
@@ -187,7 +186,9 @@
   color:#8b0000;
 }
 
-/*LESSON PAGE*/
+
+
+/*Lessons.html CSS*/
 .lesson-intro, .lesson-content {
   margin:auto ;
   margin-top:30px;
@@ -208,7 +209,6 @@
   padding-top:1px;
 }
 
-/*DETAIED DESIGN*/
 .lesson-intro img {
   float:left;
   margin-right:20px;
@@ -257,6 +257,7 @@
   border-left:7px solid #860000;
 }
 
+/*Audio Section*/
 .audio-box {
   text-align:center;
   background-color:#fcf386;
